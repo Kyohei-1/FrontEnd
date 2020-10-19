@@ -1,0 +1,76 @@
+body .twitter-color {
+  text-decoration: #1da1f2;
+  color: #1da1f2; }
+
+.header {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  padding-right: 10px;
+  padding-left: 10px; }
+  .header-container {
+    display: flex;
+    width: 980px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between; }
+    .header-container h1 {
+      font-size: 25px; }
+  .header-item {
+    align-self: center; }
+  .header-menu-container {
+    display: flex;
+    justify-content: space-between; }
+  .header-menu-item {
+    padding-right: 10px;
+    font-size: 20px; }
+    .header-menu-item:hover {
+      text-decoration: underline #333; }
+
+.main {
+  width: 980px;
+  margin: 0 auto; }
+  .main .hero-header {
+    display: block;
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+    border-radius: 3px; }
+  .main .icon {
+    height: 75px; }
+    .main .icon-image {
+      border-radius: 50%;
+      height: 140px;
+      width: 140px;
+      object-fit: cover;
+      display: block;
+      position: relative;
+      top: calc(140px/ -2);
+      left: 420px;
+      padding: 5px;
+      background-color: #ffffff; }
+  .main .user-name {
+    margin-top: 100px;
+    margin: 0;
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 20px; }
+  .main .introduction {
+    line-height: 150%;
+    background-color: #edf2f6;
+    width: calc(980px/ 2);
+    margin: 0 auto;
+    padding: 20px 40px;
+    margin-bottom: 100px; }
+    .main .introduction-message-1 {
+      letter-spacing: 1.5; }
+
+.footer {
+  margin-top: 10px;
+  background-color: #232c33;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.2em;
+  color: #fff; }
