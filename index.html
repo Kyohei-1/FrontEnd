@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Ajax Form</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <form method="post" action="" class="formArea">
+    <div class="formItem">
+      email
+      <input type="email" name="email" class="inputText js-keyup-valid-email" autocomplete="off">
+      <span class="msgArea js-set-msg-email"></span>
+    </div>
+
+    <input type="submit" value="送信" class="btn" disabled="disabled">
+  </form>
+
+  <!--jQuery-->
+  <script
+          src="http://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
